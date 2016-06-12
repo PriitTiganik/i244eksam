@@ -1,12 +1,14 @@
 /**
  * Created by Priit on 12/06/2016.
  */
+
+
 $(document).ready(function(){
 
     $("td").css({
         "color":"red",
         "font-weight":"bold"
-    })
+    });
 
 
     $('td').on({ ///mitu tegevust koos: .on
@@ -20,4 +22,4 @@ $(document).ready(function(){
             $(this).css("color","Gold");
         }
     });
-}
+});
