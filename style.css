@@ -1,0 +1,10 @@
+body{
+    background: skyblue;
+}
+
+.comment{
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
